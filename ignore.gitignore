@@ -1,0 +1,61 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+*.db
+db.sqlite3
+media/
+staticfiles/
+local_settings.py
+
+# Environment variables
+.env
+.env.*
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+*.env
+
+# VS Code and other editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS / Linux / Windows system files
+.DS_Store
+Thumbs.db
+
+# Jupyter notebooks
+*.ipynb
+.ipynb_checkpoints/
+
+# Pytest / Coverage
+.coverage
+htmlcov/
+.tox/
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+.pytest_cache/
+
+# Migrations (optional: if you want to auto-regenerate them)
+# Comment this if you want to keep migration files in version control
+# **/migrations/
+
+# MyPy / Pylint
+.mypy_cache/
+.dmypy.json
+.pyre/
+pylint-report.txt
